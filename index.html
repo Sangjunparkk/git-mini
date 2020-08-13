@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Apple</title>
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header></header>
 
-<body>
-    <section class="main2">
+    <div class="container">
+      <section class="main1">
+        <a href="#" class="main-logo"><img src="http://collectionpng.com/images/863.png" class="logo" alt="메인 로고" /></a>
+        <form action="#" class="search-form">
+          <fieldset>
+            <legend>검색 폼</legend>
+              <label for="search-form"></label>
+              <input type="text" id="search" name="search" placeholder="검색어를 입력하세요."/>
+              <button class="search-button">검색</button>
+          </fieldset>
+        </form>
+        <div class="news_video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/JMo5u1-lTZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section class="main2">
         <div class="steve">
             <img src="imgage/img.png" alt="steve jobs">
             <p>
@@ -16,12 +33,12 @@
                 - Steve Jobs -
             </p>
         </div>
-    </section>
-    <footer>
+      </section>
+      <footer>
         <small>
             &copy; copyright 2020 Apple git practice HS, SJ, YJ
         </small>
-    </footer>
-</body>
-
+      </footer>
+    </div>
+  </body>
 </html>
