@@ -1,19 +1,30 @@
+<<<<<<< HEAD
 *,
 *::before,
 *::after {
+=======
+*, *::before, *::after{
+>>>>>>> 3c030b469b75f49d2cbf3e57d7f075f353b7b2a8
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+<<<<<<< HEAD
 
 html {
   font-size: 10px;
 }
 
+=======
+html {
+  font-size: 10px;
+}
+>>>>>>> 3c030b469b75f49d2cbf3e57d7f075f353b7b2a8
 body {
   background-color: #000000;
   font-weight: 400;
 }
+<<<<<<< HEAD
 
 /* 숨김 콘텐츠 */
 .a11y-hidden,
@@ -24,18 +35,30 @@ legend {
   height: 1px;
   overflow: hidden;
   /*넘치는 것 감추기*/
+=======
+/* 숨김 콘텐츠 */
+.a11y-hidden, legend {
+  position: absolute;/*레이어함*/
+  width: 1px;
+  height: 1px;
+  overflow: hidden;/*넘치는 것 감추기*/
+>>>>>>> 3c030b469b75f49d2cbf3e57d7f075f353b7b2a8
   margin: -1px;
   clip-path: polygon(0 0, 0 0, 0 0);
   clip: rect(0 0 0 0);
   clip: rect(0, 0, 0, 0);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3c030b469b75f49d2cbf3e57d7f075f353b7b2a8
 /* clearfix */
 .clearfix::after {
   content: "";
   clear: both;
   display: block;
 }
+<<<<<<< HEAD
 
 h1,
 h2,
@@ -43,16 +66,25 @@ h3 {
   margin: 0;
 }
 
+=======
+h1, h2, h3 {
+  margin: 0;
+}
+>>>>>>> 3c030b469b75f49d2cbf3e57d7f075f353b7b2a8
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3c030b469b75f49d2cbf3e57d7f075f353b7b2a8
 a {
   text-decoration: none;
   color: inherit;
 }
+<<<<<<< HEAD
 
 .container {
   /* display: block; */
@@ -64,10 +96,19 @@ a {
   background-color: #000000;
 }
 
+=======
+.container {
+  display: block;
+  width: 1100px;
+  margin: 0 auto;
+  background-color: #000000;
+}
+>>>>>>> 3c030b469b75f49d2cbf3e57d7f075f353b7b2a8
 .main-logo img {
   display: block;
   margin: 0 auto;
 }
+<<<<<<< HEAD
 
 .search-form {
   width: 600px;
@@ -127,4 +168,38 @@ footer {
   color: rgb(163, 162, 162);
   text-align: center;
   font: 11px/25px Arial, sans-serif;
+=======
+.search-form {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.search-form__input {
+  width: 80%;
+  height: 3rem;
+}
+.search-button {
+  width: 3em;
+  height: 3rem;
+}
+.news-video {
+  background-color: red;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.steve {
+  color: #fff;
+  height: 500px;
+  background-image: url(/image/img.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 105em;
+  background-position-y: bottom;
+  background-attachment: fixed;
+}
+.steve p {
+  font-size: 2.5em;
+  padding: 35px 0 0 20px;
+  text-align: left;
+>>>>>>> 3c030b469b75f49d2cbf3e57d7f075f353b7b2a8
 }
