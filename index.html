@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
+
   <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apple</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
-    <header></header>
+
+    <header class="header">
+      <nav class="main__nav">
+        <ul class="main__menu">
+          <a class="header__logo" href="#"></a>
+          <li><a href="#">Mac</a></li>
+          <li><a href="#">iPad</a></li>
+          <li><a href="#">iPhone</a></li>
+          <li><a href="#">Watch</a></li>
+          <ul class="member__link">
+            <li><a href="#">Sign in</a></li>
+            <li><a href="#">Sign up</a></li>
+          </ul>
+        </ul>
+      </nav>
+    </header>
 
     <main class="container">
-      <section class="main-first">
-        <h2 class="a11y-hidden">메인콘텐츠1</h2>
+      <section class="main">
+        <h2 class="a11y-hidden">메인콘텐츠</h2>
         <a href="#" class="main-logo"><img src="http://collectionpng.com/images/863.png" class="logo" alt="메인 로고" /></a>
-        <form action="#" class="search-form">
-          <fieldset>
-            <legend>검색 폼</legend>
-              <label class="a11y-hidden" for="search-form">검색어 입력</label>
-              <input type="text" id="search-form" class="search-form__input" name="search" placeholder="검색어를 입력하세요."/>
-              <button id="search-button "class="search-button">검색</button>
-          </fieldset>
-        </form>
-        <div class="news-video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/JMo5u1-lTZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </section>
-
-      <section class="main-second">
-        <h2 class="a11y-hidden">메인콘텐츠2</h2>
         <div class="steve">
-            <!-- <img src="imgage/img.png" alt="steve jobs"> -->
-            <p>
-                Your time is limited so don't waste it living someone else's life<br>
-                - Steve Jobs -
-            </p>
+          <p>
+            Your time is limited so don't waste it living someone else's life<br>
+            - Steve Jobs -
+          </p>
+          <form action="#" class="search-form">
+            <fieldset>
+              <legend>검색 폼</legend>
+              <label class="a11y-hidden" for="search-form">검색어 입력</label>
+              <input type="text" id="search-form" class="search-form__input" name="search"
+                placeholder="Apple Loves You." />
+              <button id="search-button " class="search-button">Search</button>
+            </fieldset>
+          </form>
         </div>
       </section>
     </main>
+
     <footer>
       <small>
-          &copy; copyright 2020 Apple git practice HS, SJ, YJ
+        &copy; copyright 2020 Apple git practice HS, SJ, YJ
       </small>
     </footer>
+
   </body>
+
 </html>
