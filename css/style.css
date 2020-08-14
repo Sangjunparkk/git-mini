@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   font-size: 10px;
 }
@@ -14,22 +15,18 @@ body {
   font-weight: 400;
 }
 
-/* 숨김 콘텐츠 */
 .a11y-hidden,
 legend {
   position: absolute;
-  /*레이어함*/
   width: 1px;
   height: 1px;
   overflow: hidden;
-  /*넘치는 것 감추기*/
   margin: -1px;
   clip-path: polygon(0 0, 0 0, 0 0);
   clip: rect(0 0 0 0);
   clip: rect(0, 0, 0, 0);
 }
 
-/* clearfix */
 .clearfix::after {
   content: "";
   clear: both;
@@ -52,7 +49,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
-/* header  */
+
 .header__logo{
   background-image: url(../image/logo.png.png);
   width: 30px;
@@ -80,10 +77,11 @@ a {
   color: #777;
   padding: 0 2px;
 }
+
 .member__link a{
   padding: 3px 8px;
 }
-/* navigation */
+
 .main__menu{
   background-color: rgb(26, 22, 22);
   display: flex;
@@ -103,13 +101,7 @@ a {
   color: #fff;
 }
 
-
-
 .container {
-  /* position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   margin: 100px auto 0;
   background-color: #000;
 }
@@ -142,20 +134,8 @@ a {
   padding: 0 13px;
   border: none;
   color: rgb(61, 61, 61);
-  /* background-color: #000; */
   border-radius: 4px;
-  /* border: 1px solid rgb(201, 201, 201); */
-
-  /
 }
-
-/* .news-video {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  margin-bottom: 20px;
-} */
-
 
 .steve p {
   padding: 35px 0 0 20px;
