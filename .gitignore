@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3c030b469b75f49d2cbf3e57d7f075f353b7b2a8
+>>>>>>> 8e6e025ff991f33bfa6785340c0a9990cf246ad2
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudiocode,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,visualstudiocode,node
 
@@ -176,4 +183,14 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+<<<<<<< HEAD
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudiocode,node
+=======
+<<<<<<< HEAD
+# End of https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudiocode,node
+=======
+
+# End of https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudiocode,node
+
+>>>>>>> 3c030b469b75f49d2cbf3e57d7f075f353b7b2a8
+>>>>>>> 8e6e025ff991f33bfa6785340c0a9990cf246ad2

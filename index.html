@@ -1,26 +1,69 @@
-<!DOCTYPE html>
-<html>
- <head></head>
- <body>
-   <header>
-     <h1 class="logo">
-       <a href="#">
-         <img src="" alt="애플 로고">
-       </a>
-     </h1>
-     <ul class="member__link">
-       <li><a href="#">sign in</a></li>
-       <li><a href="#">sign up</a></li>
-     </ul>
-     <nav class="main__menu">
-       <ul>
-         <li><a href="#">내</a></li>
-         <li><a href="#">비</a></li>
-         <li><a href="#">게</a></li>
-         <li><a href="#">이</a></li>
-         <li><a href="#">션</a></li>
-       </ul>
-     </nav>
-   </header>
- </body>
+
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1 class="logo">
+      <a href="#">
+        <img src="" alt="애플 로고">
+      </a>
+    </h1>
+    <ul class="member__link">
+      <li><a href="#">sign in</a></li>
+      <li><a href="#">sign up</a></li>
+    </ul>
+    <nav class="main__menu">
+      <ul>
+        <li><a href="#">내</a></li>
+        <li><a href="#">비</a></li>
+        <li><a href="#">게</a></li>
+        <li><a href="#">이</a></li>
+        <li><a href="#">션</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="main">
+      <h2 class="a11y-hidden">메인콘텐츠</h2>
+      <a href="#" class="main-logo"><img src="http://collectionpng.com/images/863.png" class="logo" alt="메인 로고" /></a>
+      <div class="steve">
+        <p>
+          Your time is limited so don't waste it living someone else's life<br>
+          - Steve Jobs -
+        </p>
+        <form action="#" class="search-form">
+          <fieldset>
+            <legend>검색 폼</legend>
+            <label class="a11y-hidden" for="search-form">검색어 입력</label>
+            <input type="text" id="search-form" class="search-form__input" name="search"
+              placeholder="Apple Loves You." />
+            <button id="search-button " class="search-button">Search</button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <!-- <div class="news-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JMo5u1-lTZ8" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </div>
+      -->
+  </main>
+  <footer>
+    <small>
+      &copy; copyright 2020 Apple git practice HS, SJ, YJ
+    </small>
+  </footer>
+</body>
+
 </html>
